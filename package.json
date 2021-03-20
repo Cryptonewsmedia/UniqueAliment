@@ -1,0 +1,22 @@
+{
+  "name": "sign-personal-message-with-portis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@portis/web3": "2.0.0-beta.30",
+    "eth-sig-util": "2.1.1",
+    "web3": "1.0.0-beta.48"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@types/eth-sig-util": "2.1.0",
+    "@types/web3": "1.0.18",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
